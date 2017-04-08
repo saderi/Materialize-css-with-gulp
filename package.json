@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/saderi/Materialize-css-with-gulp.git"
   },
   "bugs": {
-    "url": "",
+    "url": "https://github.com/saderi/Materialize-css-with-gulp/issues",
     "email": "saderi@gmail.com"
   },
   "babel": {
