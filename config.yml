@@ -1,0 +1,59 @@
+# Your project's server will run on localhost:xxxx at this port
+PORT: 8080
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Path to dist folder
+  dist: "dist"  
+  # Paths to static assets that aren't images, CSS, or JavaScript
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    - "bower_components/bourbon/app/assets/stylesheets"
+    - "bower_components/materialize/sass"
+  # Paths to JavaScript libraries, which are compined into one file
+  javascript:
+    # Libraries requried by Foundation
+    - "bower_components/jquery/dist/jquery.js"
+    # Individual Mterialize components
+    # If you aren't using a component, just remove it from the list
+    - "bower_components/materialize/js/animation.js"
+    - "bower_components/materialize/js/buttons.js"
+    - "bower_components/materialize/js/cards.js"
+    - "bower_components/materialize/js/carousel.js"
+    - "bower_components/materialize/js/character_counter.js"
+    - "bower_components/materialize/js/chips.js"
+    - "bower_components/materialize/js/collapsible.js"
+    - "bower_components/materialize/js/dropdown.js"
+    - "bower_components/materialize/js/forms.js"
+    - "bower_components/materialize/js/global.js"
+    - "bower_components/materialize/js/hammer.min.js"
+    - "bower_components/materialize/js/initial.js"
+    - "bower_components/materialize/js/jquery.easing.1.3.js"
+    - "bower_components/materialize/js/jquery.hammer.js"
+    - "bower_components/materialize/js/jquery.timeago.min.js"
+    - "bower_components/materialize/js/materialbox.js"
+    - "bower_components/materialize/js/modal.js"
+    - "bower_components/materialize/js/parallax.js"
+    - "bower_components/materialize/js/pushpin.js"
+    - "bower_components/materialize/js/scrollFire.js"
+    - "bower_components/materialize/js/scrollspy.js"
+    - "bower_components/materialize/js/sideNav.js"
+    - "bower_components/materialize/js/slider.js"
+    - "bower_components/materialize/js/tabs.js"
+    - "bower_components/materialize/js/tapTarget.js"
+    - "bower_components/materialize/js/toasts.js"
+    - "bower_components/materialize/js/tooltip.js"
+    - "bower_components/materialize/js/transitions.js"
+    - "bower_components/materialize/js/velocity.min.js"
+    - "bower_components/materialize/js/waves.js"
+    # Paths to your own project code are here
+    # - "src/assets/js/!(app).js"
+    - "src/assets/js/app.js"

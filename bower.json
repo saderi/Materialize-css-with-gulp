@@ -1,0 +1,22 @@
+{
+  "name": "materialize-ssg",
+  "version": "0.1",
+  "authors": [
+    "Payam Saderi <saderi@gmail.com>"
+  ],
+  "description": "Static site generator for materialize.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.98.1",
+    "bourbon": "~4.2.7"
+  },
+  "private": true
+}
